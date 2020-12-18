@@ -34,7 +34,7 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 ## => Author and Social
 ##############################
 author:
-  type      : person # "person" (default), "organization"
+  type      : # "person" (default), "organization"
   name      : Kuankuan Yang
   url       :
   avatar    : # path or url of avatar image (square)
@@ -55,8 +55,8 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: KuankuanYang/kuankuanyang.github.io
-repository_tree: main
+repository: 
+repository_tree: 
 
 
 ## => Paths
