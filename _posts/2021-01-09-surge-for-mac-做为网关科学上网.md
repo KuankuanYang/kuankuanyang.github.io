@@ -26,8 +26,12 @@ tags: 科学上网
 
 ### 步骤
 #### Mac 端
-打开配置好且能够科学上网的 Surge for Mac 软件，开启“增强模式”，如图所示：![截屏2021-01-09 15.09.54](https://i.imgur.com/MEYBb2j.png)
-查看 Mac 的 IP 地址（按住 `option` 键，同时用鼠标左键单击上方菜单栏中的 Wi-Fi 图标）：![截屏2021-01-09 15.09.45](https://i.imgur.com/lXecCse.png)
+打开配置好且能够科学上网的 Surge for Mac 软件，开启“增强模式”，如图所示：
+![截屏2021-01-09 15.09.54](https://i.imgur.com/MEYBb2j.png)
+
+查看 Mac 的 IP 地址（按住 `option` 键，同时用鼠标左键单击上方菜单栏中的 Wi-Fi 图标）：
+![截屏2021-01-09 15.09.45](https://i.imgur.com/lXecCse.png)
+
 #### 待连接设备端
 操作想要通过 Surge for Mac 实现科学上网的设备，进入网络设置（各个系统相似但略有不同），修改如下配置：
 - 获取 IP 地址的方式从自动改为手动；
@@ -36,9 +40,12 @@ tags: 科学上网
 - 路由器（网关）填写为上一步中 Mac 的 IP 地址；
 - DNS 改为手动，并添加 `198.18.0.2`。
 
-以 iPhone 为例，修改后如图所示：![IMG_7882](https://i.imgur.com/alqDoXC.png)![IMG_7883](https://i.imgur.com/Vj2Gr3k.png)
+以 iPhone 为例，修改后如图所示：
+![IMG_7882-w642](https://i.imgur.com/alqDoXC.png)
+![IMG_7883-w642](https://i.imgur.com/Vj2Gr3k.png)
 
 保存修改，关闭并重新开启 Wi-Fi，连接成功后该设备即实现科学上网。
 
 #### 验证
-打开 Surge for Mac 的“请求查看器”，如果配置成功，则可在“远程客户端”中看见对应的 IP 地址，和它发出的请求：![截屏2021-01-09 15.28.49](https://i.imgur.com/opv1muD.png)
+打开 Surge for Mac 的“请求查看器”，如果配置成功，则可在“远程客户端”中看见对应的 IP 地址，和它发出的请求：
+![截屏2021-01-09 15.28.49](https://i.imgur.com/opv1muD.png)
